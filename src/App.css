@@ -1,0 +1,75 @@
+@import url(https://fonts.googleapis.com/css?family=Akronim);
+html{
+  background: rgb(34, 33, 33);
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items:center ;
+}
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+
+h1 {
+  position: relative;
+  font-family: 'Montserrat', Arial, sans-serif;
+  font-size: calc(20px + 5vw);
+  font-weight: 700;
+  color: #fff;
+  letter-spacing: 0.02em;
+  text-transform: uppercase;
+  text-shadow: 0 0 0.15em #1da9cc;
+  user-select: none;
+  white-space: nowrap;
+  filter: blur(0.007em);
+  animation: shake 2.5s linear forwards;
+}
+
+span{
+color: white;
+font-size: 30px;
+}
+/* From Uiverse.io by Mike11jr */ 
+button {
+  width: 130px;
+  height: 40px;
+  font-size: 1.1em;
+  cursor: pointer;
+  background-color: #171717;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  transition: all .4s;
+  margin: 50px;
+ }
+ 
+ button:hover {
+  border-radius: 5px;
+  transform: translateY(-10px);
+  box-shadow: 0 7px 0 -2px #f3f3f3,
+   0 15px 0 -4px #eff4f7,
+   0 16px 10px -3px #39a2db;
+ }
+ 
+ button:active {
+  transition: all 0.2s;
+  transform: translateY(-5px);
+  box-shadow: 0 2px 0 -2px #ffffff,
+   0 8px 0 -4px #be4e0c,
+   0 12px 10px -3px #114058;
+ }
+
+
+
+.App-link {
+  color: #61dafb;
+}
+
